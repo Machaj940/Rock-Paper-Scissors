@@ -43,8 +43,6 @@ function playRound(playerSelection, computerSelection) {
     result = "You Lose! Paper beats Rock";
     return result;
   }
-
-  //return result;
 };
 
 const playerSelection = "scissors";
