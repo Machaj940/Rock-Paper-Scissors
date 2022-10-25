@@ -77,7 +77,7 @@ function playRound(playerSelection, computerSelection) {
       roundResult.textContent = "Result of 1 round";
       score.textContent = "scores";
       computerChoice.textContent = "Computer choice";
-      setTimeout(resetWinner, 3000);
+      setTimeout(resetWinner, 5000);
     }
     
     if (playerScore == 5) {
@@ -88,7 +88,7 @@ function playRound(playerSelection, computerSelection) {
       roundResult.textContent = "Result of 1 round";
       score.textContent = "scores";
       computerChoice.textContent = "Computer choice";
-      setTimeout(resetWinner, 3000);
+      setTimeout(resetWinner, 5000);
     }
 };
 
